@@ -14,6 +14,6 @@ I don't have a favorite language and like to adapt to whatever tech stack is thr
 
 In my spare time, I tinker with setup scripts for my Linux desktop or my Mac, but I also like to write, draw, read and watch movies. 📽️
 
-I like to keep it casual so feel free to add me even if it's not for an open role, but we merely share a common interest! 🚲
+I created this website both as a resume and as a way to keep all my regularly used code readily accessible. Instead of digging through my notes or github repos, I'd rather just have it all here, centralized on a searchable website, with the added benefit that it might also save others the headache of searching for the solution to a problem I also encountered.
 
 Finally, thanks for stopping by, and check out my posts!
