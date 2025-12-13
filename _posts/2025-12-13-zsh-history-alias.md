@@ -9,7 +9,8 @@ tags: [linux, quality-of-life, shell]     # TAG names should always be lowercase
 
 ## Alias to search ZSH history
 edit '~/.zshrc' and add
-```
+
+```zsh
 # Function to search history using grep
 search () {
   # The "$@" variable passes all arguments received by the function to grep
@@ -18,9 +19,11 @@ search () {
 ```
 
 then reload the shell
-```
+
+```zsh
 source ~/.zshrc
 ```
+
 ## 🏷️ `search` Function Usage
 
 | Command                      | Description                                                                                                                                    | Example Output (Hypothetical)                    |
