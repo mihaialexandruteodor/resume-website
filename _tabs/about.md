@@ -4,5 +4,16 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+## Hey there! 👋
+
+I figured I'll let ChatGPT take a break and write my own introduction, since I'm old enough ('97) to have lived through the forums of early web 2.0 era 😂
+
+My name is Teo and I've worked for five years now as a Software Developer, mainly in full stack roles! 📚
+
+I don't have a favorite language and like to adapt to whatever tech stack is thrown at me! What I learned in all those years is that reading the documentation, reaching out to an experienced colleague or placing a few breakpoints here and there and watching the code in action is the secret recipe for settling in into any role.
+
+In my spare time, I tinker with setup scripts for my Linux desktop or my Mac, but I also like to write, draw, read and watch movies. 📽️
+
+I like to keep it casual so feel free to add me even if it's not for an open role, but we merely share a common interest! 🚲
+
+Finally, thanks for stopping by, and check out my posts!
