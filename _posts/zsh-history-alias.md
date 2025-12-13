@@ -1,6 +1,6 @@
 ---
 title: Alias to search ZSH history
-date: 2025-12-13 20:23:00 +/-TTTT
+date: 2025-12-13 20:23:00
 categories: [LINUX, TIPS]
 tags: [linux, quality-of-life, shell]     # TAG names should always be lowercase
 ---
