@@ -1,19 +1,21 @@
 ---
-# the default layout is 'page'
 icon: fas fa-briefcase
 order: 5
 ---
 
 ## RESUME
-
+<a type="button" class="toc-trigger" href="https://www.linkedin.com/in/alexandru-m-91331532a/">
+    Click for my LinkedIn profile here
+        <img src="/assets/img/Linkedin_logo.svg" width="80" alt="Linkedin Logo"/>
+      </a>
 ## 💼 Experience
 
 ### Software Developer
 
-| Company   | SAP                |
-| :-------- | :----------------- |
-| **Type**  | Full-time          |
-| **Dates** | Apr 2024 - Present |
+| Company   | <img src="/assets/img/SAP_logo.svg" width="80" alt="SAP Logo" /> |
+| :-------- | :--------------------------------------------------------------- |
+| **Type**  | Full-time                                                        |
+| **Dates** | Apr 2024 - Present                                               |
 
 * Feature development for the **Ariba Supplier Dashboard** in the **SAP4Me** project, a micro-frontend web app replacing SAP’s Biller Direct platform.
 * Delivery of new functionalities and bug fixes through a robust **CI/CD pipeline** (Git, GitHub, Jenkins), supporting rapid iteration and deployment.
@@ -39,16 +41,16 @@ order: 5
 
 **Tech Stack:** .NET Framework, Angular, Microsoft SQL Server, Xamarin, RDL
 
-**Skills:** C\#, .NET Framework, Stored Procedures, Microsoft SQL Server, Android Development, RDL, TypeScript, XML
+**Skills:** C#, .NET Framework, Stored Procedures, Microsoft SQL Server, Android Development, RDL, TypeScript, XML
 
 ---
 
 ### Frontend Developer
 
-| Company   | Luxoft                       |
-| :-------- | :--------------------------- |
-| **Type**  | Full-time                    |
-| **Dates** | Jul 2022 - May 2023 (11 mos) |
+| Company   | <img src="/assets/img/Luxoft_logo.svg" width="100" alt="Luxoft Logo" /> |
+| :-------- | :---------------------------------------------------------------------- |
+| **Type**  | Full-time                                                               |
+| **Dates** | Jul 2022 - May 2023 (11 mos)                                            |
 
 * Implementation of **Figma mockups** as reusable **React components** for Cisco’s reskin project, improving UI consistency across platforms.
 * Collaboration with a multicultural, distributed team across multiple time zones.
@@ -61,10 +63,10 @@ order: 5
 
 ### Staff Consultant
 
-| Company   | Oracle                       |
-| :-------- | :--------------------------- |
-| **Type**  | Full-time                    |
-| **Dates** | Oct 2021 - Jul 2022 (10 mos) |
+| Company   | <img src="/assets/img/Oracle_logo.svg" width="100" alt="Oracle Logo" /> |
+| :-------- | :---------------------------------------------------------------------- |
+| **Type**  | Full-time                                                               |
+| **Dates** | Oct 2021 - Jul 2022 (10 mos)                                            |
 
 * Monitoring tools developed for Telia by building **Python scripts** to query Oracle databases and export data into **InfluxDB**.
 * Automated system monitoring with **shell scripts** on cloud VMs, ensuring 24/7 reliability.
@@ -92,3 +94,23 @@ order: 5
 **Tech Stack:** Java, Kotlin, C++
 
 **Skills:** C++, Java, Kotlin, UI Testing, Debugging
+
+---
+
+<h3 align="center">Leetcode stats:</h3>
+
+<p align="center">
+  <a href="https://leetcode.com/mihaialexandruteodor/">
+    <img align="center" src="https://leetcode-stats.vercel.app/api?username=mihaialexandruteodor&theme=Dark" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github-readme-stats.vercel.app/api?username=mihaialexandruteodor&show_icons=true&theme=tokyonight">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=mihaialexandruteodor&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
+  </a>
+</p>
+
+<p align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihaialexandruteodor&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
+</p>
