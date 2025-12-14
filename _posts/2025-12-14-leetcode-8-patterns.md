@@ -135,13 +135,14 @@ Binary Search also works for:
 * **Ideal for:** Exploring all paths, cycle detection, backtracking.
 
 ### 🔹 DFS Template (Recursive)
-
+```python
     def dfs(node, visited):
         if not node or node in visited:
             return
         visited.add(node)
         for neighbor in node.neighbors:
             dfs(neighbor, visited)
+```
 
 ### 🔹 Example Problem: Number of Islands
 * **Goal:** Count connected groups of '1's in a grid.
