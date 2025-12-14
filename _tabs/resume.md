@@ -10,10 +10,10 @@ order: 5
 
 ### Software Developer
 
-| Company   | SAP                             |
-| :-------- | :------------------------------ |
-| **Type**  | Full-time                       |
-| **Dates** | Apr 2024 - Present (1 yr 9 mos) |
+| Company   | SAP                |
+| :-------- | :----------------- |
+| **Type**  | Full-time          |
+| **Dates** | Apr 2024 - Present |
 
 * Feature development for the **Ariba Supplier Dashboard** in the **SAP4Me** project, a micro-frontend web app replacing SAP’s Biller Direct platform.
 * Delivery of new functionalities and bug fixes through a robust **CI/CD pipeline** (Git, GitHub, Jenkins), supporting rapid iteration and deployment.
