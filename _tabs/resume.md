@@ -101,16 +101,16 @@ order: 5
 
 <p align="center">
   <a href="https://leetcode.com/mihaialexandruteodor/">
-    <img align="center" src="https://leetcode-stats.vercel.app/api?username=mihaialexandruteodor&theme=Dark" />
+    <img align="center" src="https://leetcode-stats.vercel.app/api?username=mihaialexandruteodor&theme=Dark" alt="leetcode stats"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github-readme-stats.vercel.app/api?username=mihaialexandruteodor&show_icons=true&theme=tokyonight">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=mihaialexandruteodor&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=mihaialexandruteodor&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="github commit stats"/>
   </a>
 </p>
 
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihaialexandruteodor&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihaialexandruteodor&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="most used langs"/>
 </p>
