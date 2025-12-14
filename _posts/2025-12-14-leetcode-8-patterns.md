@@ -7,7 +7,8 @@ tags: [programming, leetcode]     # TAG names should always be lowercase
 
 # LeetCode 8 Patterns
 
-**Source:** [YouTube Video](https://www.youtube.com/watch?v=RYT08CaYq6A)
+**Source:** 
+{% include embed/youtube.html id='RYT08CaYq6A' %}
 
 ---
 
