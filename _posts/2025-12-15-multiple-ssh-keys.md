@@ -31,8 +31,9 @@ ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_personal -C "your_personal_email@exam
 ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_work -C "your_work_email@company.com"
 ```
 
+> You will be prompted to enter a **passphrase** for each key. It is highly recommended to use one for security.
 {: .prompt-info }
-You will be prompted to enter a **passphrase** for each key. It is highly recommended to use one for security.
+
 
 ### Verify Key Permissions
 
@@ -60,7 +61,7 @@ nano ~/.ssh/config
 
 Paste the following structure into the file. **You must replace the example `HostName` and `IdentityFile` paths if you named your keys differently.**
 
-```ssh-config
+```zsh
 # ------------------------------------------------------------------
 # PERSONAL ACCOUNT CONFIGURATION (Example: Personal GitHub)
 # ------------------------------------------------------------------
@@ -148,7 +149,7 @@ ssh -T git@github-personal
 
 # Test connection using the work key
 ssh -T git@github-work
-```# 🔒 Arch Linux: Multi-User SSH Key Setup
+```# Arch Linux: Multi-User SSH Key Setup
 
 This tutorial guides you through creating two distinct SSH keys (Personal and Work) and configuring your local SSH client (`~/.ssh/config`) to automatically use the correct key for different remote users or projects.
 
@@ -172,8 +173,8 @@ ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_personal -C "your_personal_email@exam
 ```zsh
 ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_work -C "your_work_email@company.com"
 ```
+> You will be prompted to enter a **passphrase** for each key. It is highly recommended to use one for security.
 {: .prompt-info }
-You will be prompted to enter a **passphrase** for each key. It is highly recommended to use one for security.
 
 ### Verify Key Permissions
 
@@ -201,7 +202,7 @@ nano ~/.ssh/config
 
 Paste the following structure into the file. **You must replace the example `HostName` and `IdentityFile` paths if you named your keys differently.**
 
-```ssh-config
+```zsh
 # ------------------------------------------------------------------
 # PERSONAL ACCOUNT CONFIGURATION (Example: Personal GitHub)
 # ------------------------------------------------------------------
@@ -291,9 +292,8 @@ ssh -T git@github-personal
 ssh -T git@github-work
 ```
 
-
+> Your Git username and email won't differ by default, even if you used different SSH keys to clone or commit to the repos. Git's authentication (SSH Key) and identity (User Name/Email) are entirely separate.
 {: .prompt-warning }
-Your Git username and email won't differ by default, even if you used different SSH keys to clone or commit to the repos. Git's authentication (SSH Key) and identity (User Name/Email) are entirely separate.
 
 # 📁 Automating Git Identity with Conditional Includes
 
