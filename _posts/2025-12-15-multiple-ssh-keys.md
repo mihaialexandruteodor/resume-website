@@ -293,18 +293,19 @@ ssh -T git@github-work
 
 
 {: .prompt-warning }
-Your git username and email won't differ by defaul, even if you used different ssh keys to clone or commit to the repos.
+Your Git username and email won't differ by default, even if you used different SSH keys to clone or commit to the repos. Git's authentication (SSH Key) and identity (User Name/Email) are entirely separate.
 
 # 📁 Automating Git Identity with Conditional Includes
 
-This method ensures that your Git `user.name` and `user.email` automatically switch based on the project's directory path. This is the **recommended solution** for managing work and personal identities simultaneously.
+This method ensures that your Git `user.name` and `user.email` automatically switch based on the project's directory path. This is the **recommended solution** for managing multiple identities simultaneously. 
 
 ## Step 1: Set Your Default (Personal) Identity
 
 Edit your global Git configuration file (`~/.gitconfig`) to define your most common identity (e.g., your personal one).
 
-```zsh
+```bash
 nano ~/.gitconfig
+# Use your preferred text editor (vim, micro, etc.)
 ```
 
 ### `~/.gitconfig` Content (Default Identity & Conditional Include)
@@ -315,17 +316,18 @@ nano ~/.gitconfig
     email = personal@example.com
 
 # --- Conditional Include ---
-# This checks if the current repository path starts with '~/Work/'
-# If the condition is met, it loads the settings from the specified path.
-[includeIf "gitdir:~/Work/"]
+# This checks if the repository's path matches a pattern.
+# We use a placeholder for the "Work" directory. Replace '~/Work/' with your actual path!
+# The '/**' (double asterisk) ensures it matches ALL nested repositories inside the 'Work' directory.
+[includeIf "gitdir:~/Work/**"]
     path = ~/.gitconfig-work
 ```
 
 ## Step 2: Create the Override Configuration File
 
-Create a separate configuration file (`~/.gitconfig-work`) containing only the identity settings for your work projects.
+Create a separate configuration file (`~/.gitconfig-work`) containing only the identity settings for your secondary projects.
 
-```zsh
+```bash
 nano ~/.gitconfig-work
 ```
 
@@ -339,5 +341,5 @@ nano ~/.gitconfig-work
 
 ### How It Works
 
-1.  **Anywhere else (e.g., `~/Documents/repo`):** Git uses the `[user]` section from `~/.gitconfig` (Personal Identity).
-2.  **Inside `~/Work/project`:** Git loads `~/.gitconfig` (Personal Identity) first, then sees the `[includeIf]` condition is met, and loads `~/.gitconfig-work`. The `[user]` section in the second file **overrides** the first one, setting your Work Identity for that directory and its subdirectories.
+1.  **Default Behavior:** If you are *not* inside the path specified by the `includeIf` condition, Git uses the `[user]` section from `~/.gitconfig` (Personal Identity).
+2.  **Conditional Override:** When you navigate inside a repository located under the `~/Work/` path, the `[includeIf]` condition is met. Git then loads `~/.gitconfig-work`, and its `[user]` section **overrides** the default one for that specific directory, setting your Work Identity for all commits.
