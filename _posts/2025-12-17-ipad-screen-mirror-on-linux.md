@@ -102,7 +102,7 @@ Creating a desktop entry allows you to launch the mirror from your Application L
 3. Save and close the file. 
 4. You can now find "iPad Mirror" in your KDE Application Launcher. Right-click it to select "Pin to Task Manager" for one-click access.
 
-<img src="{{ site.baseurl }}/assets/post_images/ipad_mirroring/1.png" />
+<img src="{{ site.baseurl }}/assets/post_images/ipad_mirroring/1.png" alt="screenshot with the uxplay app"/>
 
 ---
 
