@@ -18,7 +18,7 @@ This tutorial explains how to set up and use UxPlay on Nobara Linux to mirror an
 
 UxPlay is the primary tool used to act as an AirPlay server on Linux. Install it and the necessary dependencies using the package manager.
 
-```bash
+```zsh
 sudo dnf install uxplay
 ```
 
@@ -26,7 +26,7 @@ sudo dnf install uxplay
 
 AirPlay requires several network ports to be open to communicate with Apple devices. Use the following commands to configure the firewall rules.
 
-```bash
+```zsh
 sudo firewall-cmd --add-service=mdns --permanent
 sudo firewall-cmd --add-port=5353/udp --permanent
 sudo firewall-cmd --add-port=6000-6001/tcp --permanent
@@ -41,7 +41,7 @@ UxPlay relies on Avahi (mDNS/DNS-SD) to be visible to your iPad. Ensure the serv
 
 
 
-```bash
+```zsh
 sudo systemctl enable --now avahi-daemon
 ```
 
@@ -50,24 +50,24 @@ sudo systemctl enable --now avahi-daemon
 To make the mirroring process easier and more efficient, you can create a Zsh alias. The -avdec flag enables hardware-accelerated video decoding, which significantly reduces CPU usage and latency.
 
 1. Open your Zsh configuration file:
-   ```bash
+   ```zsh
    nvim ~/.zshrc
    ```
 
 2. Add the following line to the bottom of the file:
-   ```bash
+   ```zsh
    alias ipad-mirror="uxplay -avdec"
    ```
 
 3. Save the file and reload your shell configuration:
-   ```bash
+   ```zsh
    source ~/.zshrc
    ```
 
 ## Step 5: Start Mirroring
 
 1. Open your terminal and run the new shortcut:
-   ```bash
+   ```zsh
    ipad-mirror
    ```
 
@@ -81,7 +81,7 @@ To make the mirroring process easier and more efficient, you can create a Zsh al
 Creating a desktop entry allows you to launch the mirror from your Application Launcher or pin it to your taskbar.
 
 1. Create a new desktop entry file:
-   ```bash
+   ```zsh
    nvim ~/.local/share/applications/ipad-mirror.desktop
    ```
 
