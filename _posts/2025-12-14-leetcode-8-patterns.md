@@ -12,14 +12,14 @@ tags: [programming, leetcode]     # TAG names should always be lowercase
 
 ---
 
-## 🧠 Two Pointers Pattern
+##  Two Pointers Pattern
 
 ### 🔹 Why Two Pointers Matter
 * Optimizes problems involving linear data structures (arrays, strings, linked lists).
 * Reduces time complexity from brute-force `O(n²)` to efficient `O(n)`.
 * Useful in situations where you'd otherwise compare every combination of elements.
 
-### 🔹 Types of Two Pointer Techniques
+###  Types of Two Pointer Techniques
 
 #### 1. Same Direction
 * Pointers move left to right together.
@@ -40,39 +40,39 @@ tags: [programming, leetcode]     # TAG names should always be lowercase
 
 ---
 
-## 🧠 Sliding Window Pattern
+##  Sliding Window Pattern
 
-### 🔹 What It Is
+###  What It Is
 * A specialized form of the two pointers technique.
 * Focuses on maintaining a dynamic range (window) of elements.
 * Used to analyze contiguous subarrays or substrings.
 * Adjusts window size dynamically as the data is processed.
 
-### 🔹 How It Works
+###  How It Works
 1.  **Two pointers define the window:** One marks the start, one marks the end.
 2.  **Expand:** As the end pointer moves forward, the window expands to include more elements.
 3.  **Shrink:** As conditions are violated or goals are met, the start pointer moves forward to shrink the window.
 
-### 🔹 Key Use Cases
+###  Key Use Cases
 * Finding maximum/minimum of something in a subarray.
 * Tracking running sums, averages, or character counts.
 * Searching for longest/shortest substrings meeting certain criteria.
 
-### 🔹 Example Problem: Longest substring without repeating characters
+###  Example Problem: Longest substring without repeating characters
 1.  Expand the window by moving the end pointer.
 2.  If a duplicate character appears, move the start pointer forward until the duplicate is removed.
 3.  Use a hashmap to track characters inside the window.
 
 ---
 
-## 🧠 Binary Search
+##  Binary Search
 
-### 🔹 What It Is
+###  What It Is
 * A search algorithm used to find a target in a sorted array.
 * Variant of the two pointers technique using a left and right boundary.
 * **Time complexity:** `O(log n)` — far more efficient than linear search `O(n)`.
 
-### 🔹 How It Works
+###  How It Works
 1.  Initialize two pointers: `left` at the start, `right` at the end.
 2.  Find the middle: `mid = (left + right) // 2`.
 3.  Compare `array[mid]` with target:
@@ -81,30 +81,30 @@ tags: [programming, leetcode]     # TAG names should always be lowercase
     * If `mid > target` → search the left half.
 4.  Repeat until pointers converge or element is found.
 
-### 🔹 More Than Just Numbers
+###  More Than Just Numbers
 Binary Search also works for:
 * **Monotonic functions:** Consistently increasing or decreasing sequences.
 * **True/False patterns:** When a condition changes from false to true in a list (e.g., finding the first `True` in a list of booleans).
 
-### 🔹 Creative Use Case: Minimum in Rotated Sorted Array
+###  Creative Use Case: Minimum in Rotated Sorted Array
 * Even though it seems unsorted, a monotonic condition exists.
 * If `element < last element` → it's in the rotated section.
 * If `element > last element` → it's in the original sorted section.
 
 ---
 
-## 🧠 Breadth-First Search (BFS)
+##  Breadth-First Search (BFS)
 
-### 🔹 What It Is
+###  What It Is
 * Algorithm for exploring graphs or trees level by level.
 * Starts from a given node and visits all immediate neighbors before moving to the next level.
 
-### 🔹 Key Characteristics
+###  Key Characteristics
 * **Data Structure:** Queue (FIFO - First In, First Out).
 * **Tracks Visited Nodes:** To prevent infinite loops.
 * **Ideal for:** Shortest path in unweighted graphs, Level-order traversal.
 
-### 🔹 BFS Template Overview
+###  BFS Template Overview
 1.  Initialize a queue and a visited set.
 2.  Add starting node to queue.
 3.  While queue is not empty:
@@ -112,29 +112,31 @@ Binary Search also works for:
     * Add to result.
     * Add unvisited neighbors to queue.
 
-### 🔹 Example: Level-Order Traversal
+###  Example: Level-Order Traversal
 **Input Tree:**
+```
       3
      / \
     9  20
       /  \
      15   7
+```
 
 **Output:** `[[3], [9, 20], [15, 7]]`
 
 ---
 
-## 🧠 Depth-First Search (DFS)
+##  Depth-First Search (DFS)
 
-### 🔹 What It Is
+###  What It Is
 * Traversal algorithm that explores as far down a branch as possible before backtracking.
 * **Contrast:** BFS goes level-by-level (Queue); DFS dives deep (Stack/Recursion).
 
-### 🔹 Key Characteristics
+###  Key Characteristics
 * **Data Structure:** Stack (or call stack via recursion).
 * **Ideal for:** Exploring all paths, cycle detection, backtracking.
 
-### 🔹 DFS Template (Recursive)
+###  DFS Template (Recursive)
 ```python
     def dfs(node, visited):
         if not node or node in visited:
@@ -144,7 +146,7 @@ Binary Search also works for:
             dfs(neighbor, visited)
 ```
 
-### 🔹 Example Problem: Number of Islands
+###  Example Problem: Number of Islands
 * **Goal:** Count connected groups of '1's in a grid.
 * **Approach:** Iterate through grid. If '1' is found, increment count and run DFS to mark all connected '1's as '0' (visited).
 ```python
@@ -173,18 +175,18 @@ Binary Search also works for:
 
 ---
 
-## 🔁 Backtracking
+##  Backtracking
 
 ### 🔹 What Is Backtracking?
 * Extension of DFS.
 * Builds the solution space dynamically.
 * Used in combinatorial problems where the full decision tree isn't known upfront.
 
-### 🔹 Key Concepts
+###  Key Concepts
 * Explore options one decision at a time.
 * If a dead end or invalid path is reached, **backtrack** (undo last decision) and try another path.
 
-### 🔹 Template Pattern
+###  Template Pattern
 ```python
     def backtrack(path, options):
         if end_condition(path):
@@ -197,7 +199,7 @@ Binary Search also works for:
                 path.pop()  # backtrack
 ```
 
-### 🔹 Example: Letter Combinations of Phone Number
+###  Example: Letter Combinations of Phone Number
 **Input:** "23" -> **Output:** ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
 ```python
     def letterCombinations(digits):
@@ -226,34 +228,34 @@ Binary Search also works for:
 
 ---
 
-## ⬆️ Priority Queue (Heap)
+##  Priority Queue (Heap)
 
-### 🔹 When to Use
+###  When to Use
 * Top K elements.
 * K smallest or K largest values.
 
-### 🔹 Min vs Max Heap
+###  Min vs Max Heap
 * **Min Heap:** Smallest element at root.
 * **Max Heap:** Largest element at root.
 
-### 🔹 The Counterintuitive Rule
+###  The Counterintuitive Rule
 * Find **K Smallest** → Use **Max Heap**.
     * *Why?* Keep heap size at K. If a new number is smaller than the largest (root), pop the root and insert the new one.
 * Find **K Largest** → Use **Min Heap**.
 
-### 🔹 Efficiency
+###  Efficiency
 * Access root: `O(1)`
 * Insert/Remove: `O(log n)`
 
 ---
 
-## 📊 Dynamic Programming (DP)
+##  Dynamic Programming (DP)
 
-### 🔹 Core Idea
+###  Core Idea
 * Break problem into overlapping subproblems.
 * Solve each subproblem once and **store the result** (Memoization).
 
-### 🔹 Two Main Approaches
+###  Two Main Approaches
 
 #### 1. Top-Down (Memoization)
 * Start from main problem, recurse down.
@@ -265,6 +267,6 @@ Binary Search also works for:
 * Build up to larger problems using loops.
 * Often more efficient (no recursion overhead).
 
-### 🔹 Summary
+###  Summary
 * DP optimizes exponential brute-force solutions to polynomial time.
 * Fundamental for problems involving optimal decisions, counting, and partitioning.

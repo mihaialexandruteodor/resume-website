@@ -5,7 +5,7 @@ categories: [GIT]
 tags: [git, quality-of-life]
 ---
 
-# 🔒 Multi-User SSH Key Setup
+#  Multi-User SSH Key Setup
 
 This tutorial guides you through creating two distinct SSH keys (Personal and Work) and configuring your local SSH client (`~/.ssh/config`) to automatically use the correct key for different remote users or projects.
 
@@ -152,7 +152,7 @@ ssh -T git@github-work
 > Your Git username and email won't differ by default, even if you used different SSH keys to clone or commit to the repos. Git's authentication (SSH Key) and identity (User Name/Email) are entirely separate.
 {: .prompt-warning }
 
-# 📁 Automating Git Identity with Conditional Includes
+#  Automating Git Identity with Conditional Includes
 
 This method ensures that your Git `user.name` and `user.email` automatically switch based on the project's directory path. This is the **recommended solution** for managing multiple identities simultaneously. 
 
