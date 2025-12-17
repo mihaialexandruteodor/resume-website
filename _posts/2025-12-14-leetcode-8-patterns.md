@@ -14,7 +14,7 @@ tags: [programming, leetcode]     # TAG names should always be lowercase
 
 ##  Two Pointers Pattern
 
-### 🔹 Why Two Pointers Matter
+###  Why Two Pointers Matter
 * Optimizes problems involving linear data structures (arrays, strings, linked lists).
 * Reduces time complexity from brute-force `O(n²)` to efficient `O(n)`.
 * Useful in situations where you'd otherwise compare every combination of elements.
