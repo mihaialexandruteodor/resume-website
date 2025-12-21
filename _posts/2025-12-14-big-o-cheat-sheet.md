@@ -5,8 +5,6 @@ categories: [PROGRAMMING, INTERVIEW]
 tags: [programming, big-o]     # TAG names should always be lowercase
 ---
 
-# Big O Notation
-
 ##  Big O Notation -- Summary & Concepts
 
 ###  What is Big O?

@@ -7,8 +7,6 @@ tags: [git, quality-of-life]     # TAG names should always be lowercase
 
 # GENERAL QUALITY OF LIFE IMPROVEMENTS #1
 
-## Git cheat sheet
-
 ## Essential Git History Cleanup & Integration Commands
 
 These commands are used to modify commit history, integrate features without merging noise, and update remote branches.

@@ -7,7 +7,6 @@ tags: [linux, quality-of-life, shell]     # TAG names should always be lowercase
 
 # LINUX QUALITY OF LIFE IMPROVEMENTS #1
 
-## Alias to search ZSH history
 edit '~/.zshrc' and add
 
 ```zsh

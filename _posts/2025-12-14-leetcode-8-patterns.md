@@ -5,8 +5,6 @@ categories: [PROGRAMMING, INTERVIEW]
 tags: [programming, leetcode]     # TAG names should always be lowercase
 ---
 
-# LeetCode 8 Patterns
-
 **Source:** 
 {% include embed/youtube.html id='RYT08CaYq6A' %}
 

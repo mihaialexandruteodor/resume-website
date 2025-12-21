@@ -5,8 +5,6 @@ categories: [LINUX]
 tags: [linux, apple, ipad, screen-mirroring, quality-of-life]     # TAG names should always be lowercase
 ---
 
-# iPad/iPhone Screen Mirroring on Nobara Linux
-
 This tutorial explains how to set up and use UxPlay on Nobara Linux to mirror an iPad screen using the AirPlay protocol.
 
 ## Prerequisites

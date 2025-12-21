@@ -5,8 +5,6 @@ categories: [GIT]
 tags: [git, quality-of-life]
 ---
 
-#  Multi-User SSH Key Setup
-
 This tutorial guides you through creating two distinct SSH keys (Personal and Work) and configuring your local SSH client (`~/.ssh/config`) to automatically use the correct key for different remote users or projects.
 
 ## Prerequisites
