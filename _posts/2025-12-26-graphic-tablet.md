@@ -87,12 +87,11 @@ cp -r ~/.config/OpenTabletDriver/Plugins/Configurations/* ~/opentabletdriver/usr
 
 ## 6. Enable Autostart on Boot
 
-1. Open the 'Startup Applications' utility in Nobara.
-2. Add a new startup program:
-   - Name: OpenTabletDriver Daemon
-   - Command: `/home/YOUR_USERNAME/opentabletdriver/usr/local/lib/opentabletdriver/OpenTabletDriver.Daemon`
-   (Replace YOUR_USERNAME with your actual Linux user name)
-3. Save and close.
+1. Open **System Settings** and search for **Autostart**.
+2. Click **+ Add...** and select **Add Application**.
+3. In the command/executable line, paste the following path (Replace `YOUR_USERNAME` with your actual Linux username):
+   `/home/YOUR_USERNAME/opentabletdriver/usr/local/lib/opentabletdriver/OpenTabletDriver.Daemon`
+4. Give it a name like `OTD Daemon` and click **OK**.
 
 ---
 
