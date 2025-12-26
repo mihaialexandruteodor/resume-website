@@ -38,7 +38,7 @@ tar -xzf ~/Downloads/opentabletdriver-*.tar.gz -C ~/
 Run these commands to allow the driver to talk to your tablet hardware:
 
 ```zsh
-cd ~/OpenTabletDriver
+cd ~/opentabletdriver
 sudo cp 99-opentabletdriver.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
@@ -52,13 +52,13 @@ You must run the Daemon first (the engine), then the UX (the settings interface)
 To start the Daemon:
 
 ```zsh
-~/OpenTabletDriver/OpenTabletDriver.Daemon
+~/opentabletdriver/OpenTabletDriver.Daemon
 ```
 
 To start the Settings GUI (run this in a separate terminal window):
 
 ```zsh
-~/OpenTabletDriver/OpenTabletDriver.UX.Gtk
+~/opentabletdriver/OpenTabletDriver.UX.Gtk
 ```
 
 ---
@@ -79,7 +79,7 @@ The Deco 01v2 often reports dimensions twice as large as the physical surface.
 3. If buttons still don't work, copy the configurations manually:
 
 ```zsh
-cp -r ~/.config/OpenTabletDriver/Plugins/Configurations/* ~/OpenTabletDriver/Configurations/
+cp -r ~/.config/OpenTabletDriver/Plugins/Configurations/* ~/opentabletdriver/Configurations/
 ```
 
 ---
@@ -115,8 +115,8 @@ nano ~/.local/share/applications/opentabletdriver.desktop
 Type=Application
 Name=OpenTabletDriver
 Comment=Graphic Tablet Configuration
-Exec=/home/YOUR_USERNAME/OpenTabletDriver/OpenTabletDriver.UX.Gtk
-Path=/home/YOUR_USERNAME/OpenTabletDriver/
+Exec=/home/YOUR_USERNAME/opentabletdriver/OpenTabletDriver.UX.Gtk
+Path=/home/YOUR_USERNAME/opentabletdriver/
 Icon=input-tablet
 Terminal=false
 Categories=Graphics;Settings;
