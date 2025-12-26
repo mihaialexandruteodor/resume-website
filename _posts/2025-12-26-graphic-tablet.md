@@ -72,16 +72,11 @@ The Deco 01v2 often reports dimensions twice as large as the physical surface.
 2. Manually divide the 'Width' and 'Height' values by 2.
 3. Click 'Apply' and 'Save'.
 
-**B. Fixing the Side Buttons (Backport Plugin):**
+**B. Fixing the Side Buttons:**
 
-1. In the OTD GUI, open the 'Plugin Manager'.
-2. Search for and install the 'OTD Backport' plugin.
-3. If buttons still don't work, copy the configurations manually:
-
-```zsh
-mkdir -p ~/opentabletdriver/usr/local/lib/opentabletdriver/Configurations
-cp -r ~/.config/OpenTabletDriver/Plugins/Configurations/* ~/opentabletdriver/usr/local/lib/opentabletdriver/Configurations/
-```
+1. Go to the Buttons tab in the OTD GUI.
+2. Tap your pen buttons. If the boxes highlight in the software, they are working!
+3. If they do not work, you may need the "Artist Mode" plugin instead (search for "Artist" in the Plugin Manager).
 
 ---
 
