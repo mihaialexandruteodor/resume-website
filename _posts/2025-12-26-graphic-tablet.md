@@ -39,7 +39,7 @@ Run these commands to allow the driver to talk to your tablet hardware:
 
 ```zsh
 cd ~/opentabletdriver
-sudo cp 99-opentabletdriver.rules /etc/udev/rules.d/
+sudo cp ~/opentabletdriver/etc/udev/rules.d/70-opentabletdriver.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
