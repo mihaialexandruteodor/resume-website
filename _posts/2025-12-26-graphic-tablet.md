@@ -27,6 +27,10 @@ sudo dnf install dotnet-runtime-8.0
 2. Download the 'OpenTabletDriver.Linux.x64.tar.gz' file.
 3. Extract the folder to your Home directory: ~/OpenTabletDriver
 
+```zsh
+tar -xzf ~/Downloads/opentabletdriver-*.tar.gz -C ~/
+```
+
 ---
 
 ## 3. Set Hardware Permissions (Udev Rules)
