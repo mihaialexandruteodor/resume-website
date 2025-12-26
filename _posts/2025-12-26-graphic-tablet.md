@@ -87,12 +87,12 @@ cp -r ~/.config/OpenTabletDriver/Plugins/Configurations/* ~/opentabletdriver/usr
 
 ## 6. Enable Autostart on Boot
 
-1. Open **System Settings** and search for **Autostart**.
+1. Open **System Settings** and go to **Autostart**.
 2. Click **+ Add...** and select **Add Application**.
-3. In the command/executable line, paste the following path (Replace `YOUR_USERNAME` with your actual Linux username):
-   `/home/YOUR_USERNAME/opentabletdriver/usr/local/lib/opentabletdriver/OpenTabletDriver.Daemon`
-4. Give it a name like `OTD Daemon` and click **OK**.
-
+3. Use the file tree to navigate to:
+   `Home` > `opentabletdriver` > `usr` > `local` > `lib` > `opentabletdriver`
+4. Select the file named `OpenTabletDriver.Daemon` and click **Open**.
+5. Click **OK** to finish adding it to your login items.
 ---
 
 ## 7. Wayland Support
