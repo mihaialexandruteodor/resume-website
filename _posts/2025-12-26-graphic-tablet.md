@@ -52,13 +52,13 @@ You must run the Daemon first (the engine), then the UX (the settings interface)
 To start the Daemon:
 
 ```zsh
-~/opentabletdriver/OpenTabletDriver.Daemon
+~/opentabletdriver/usr/local/lib/opentabletdriver/OpenTabletDriver.Daemon
 ```
 
 To start the Settings GUI (run this in a separate terminal window):
 
 ```zsh
-~/opentabletdriver/OpenTabletDriver.UX.Gtk
+~/opentabletdriver/usr/local/lib/opentabletdriver/OpenTabletDriver.UX.Gtk
 ```
 
 ---
@@ -79,7 +79,8 @@ The Deco 01v2 often reports dimensions twice as large as the physical surface.
 3. If buttons still don't work, copy the configurations manually:
 
 ```zsh
-cp -r ~/.config/OpenTabletDriver/Plugins/Configurations/* ~/opentabletdriver/Configurations/
+mkdir -p ~/opentabletdriver/usr/local/lib/opentabletdriver/Configurations
+cp -r ~/.config/OpenTabletDriver/Plugins/Configurations/* ~/opentabletdriver/usr/local/lib/opentabletdriver/Configurations/
 ```
 
 ---
@@ -89,7 +90,7 @@ cp -r ~/.config/OpenTabletDriver/Plugins/Configurations/* ~/opentabletdriver/Con
 1. Open the 'Startup Applications' utility in Nobara.
 2. Add a new startup program:
    - Name: OpenTabletDriver Daemon
-   - Command: /home/YOUR_USERNAME/OpenTabletDriver/OpenTabletDriver.Daemon
+   - Command: `/home/YOUR_USERNAME/opentabletdriver/usr/local/lib/opentabletdriver/OpenTabletDriver.Daemon`
    (Replace YOUR_USERNAME with your actual Linux user name)
 3. Save and close.
 
@@ -115,8 +116,8 @@ nano ~/.local/share/applications/opentabletdriver.desktop
 Type=Application
 Name=OpenTabletDriver
 Comment=Graphic Tablet Configuration
-Exec=/home/YOUR_USERNAME/opentabletdriver/OpenTabletDriver.UX.Gtk
-Path=/home/YOUR_USERNAME/opentabletdriver/
+Exec=/home/YOUR_USERNAME/opentabletdriver/usr/local/lib/opentabletdriver/OpenTabletDriver.UX.Gtk
+Path=/home/YOUR_USERNAME/opentabletdriver/usr/local/lib/opentabletdriver/
 Icon=input-tablet
 Terminal=false
 Categories=Graphics;Settings;
