@@ -16,10 +16,8 @@ This guide covers the installation of OpenTabletDriver (OTD) and the specific fi
 Nobara is Fedora-based, so use dnf to install the required .NET runtime:
 
 ```zsh
-sudo dnf install dotnet-runtime-6.0
+sudo dnf install dotnet-runtime-8.0
 ```
-
-(Note: If 6.0 is not found, use 'dotnet-runtime-8.0' or 'dotnet-sdk-6.0')
 
 ---
 
