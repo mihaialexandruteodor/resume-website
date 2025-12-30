@@ -72,6 +72,11 @@ The Deco 01v2 often reports dimensions twice as large as the physical surface.
 2. Manually divide the 'Width' and 'Height' values by 2.
 3. Click 'Apply' and 'Save'.
 
+### The Deco 01v2 has a physical active area of 10 x 6.25 inches.
+
+Width: 10 inches x 25.4 = 254 mm
+Height: 6.25 inches x 25.4 = 158.75 mm
+
 **B. Fixing the Side Buttons:**
 
 1. Go to the Buttons tab in the OTD GUI.
