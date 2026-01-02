@@ -93,6 +93,7 @@ Height: 6.25 inches x 25.4 = 158.75 mm
    `Home` > `opentabletdriver` > `usr` > `local` > `lib` > `opentabletdriver`
 4. Select the file named `OpenTabletDriver.Daemon` and click **Open**.
 5. Click **OK** to finish adding it to your login items.
+
 ---
 
 ## 7. Wayland Support
