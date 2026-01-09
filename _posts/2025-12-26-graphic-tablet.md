@@ -5,6 +5,12 @@ categories: [LINUX, TIPS]
 tags: [linux, quality-of-life, drawing, graphic-tablet]     # TAG names should always be lowercase
 ---
 
+## 2026 UPDATE
+
+Xp Pen Deco 01 v2 official drivers [here](https://www.xp-pen.com/download/deco-01-v2.html), this is what I daily now but maybe your special case will be covered by the tutorial.
+
+
+-------------------------------
 
 
 This guide covers the installation of OpenTabletDriver (OTD) and the specific fixes for the Deco 01v2's scaling and button issues on Wayland.
