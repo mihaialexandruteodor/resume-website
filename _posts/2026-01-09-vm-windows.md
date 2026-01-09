@@ -54,13 +54,64 @@ To get "Better than WinBoat" speeds, you must install the VirtIO drivers inside 
 ---
 
 ### STEP 4: THE "CLEAN EXIT" WORKFLOW
-Because this is a native VM, you no longer have to worry about "Nuke" buttons.
 
 1. When you are finished with Clip Studio Paint, simply close the app.
 2. You can either:
    a) Shut down Windows normally (The VM window will close itself safely).
    b) Use the **"Pause"** button in Virt-Manager to "Freeze" the state. This allows you to reopen CSP in 1 second exactly where you left off.
 3. If Windows ever hangs, use the **"Force Off"** option in the Virt-Manager menu. Because it doesn't use RDP, your Linux keyboard/mouse will **never** be locked again.
+
+### STEP 5 (optional): Setup for internet and drivers for the VM/Host interaction
+  COMPLETE GUIDE: MACVTAP & VIRTIO SETUP FOR WIN10 (NO-LOCK WORKFLOW)
+
+---
+
+### STEP 5.1: IDENTIFY THE HOST INTERFACE
+First, we confirm your active internet connection name on Nobara.
+1. Open your terminal.
+2. Run: `nmcli device status`
+3. Look for the "connected" device. 
+   **Your result:** `censored_res`
+
+---
+
+### STEP 5.2: CONFIGURE MACVTAP (BYPASS FIREWALL)
+This method lets the VM share your physical card to get its own IP address.
+1. **Shut down** the Windows VM.
+2. Open **Virt-Manager** -> Click the **Lightbulb icon** (Hardware Details).
+3. Select **NIC** (Network Interface).
+4. **Network source:** Choose **"Host device censored_res: macvtap"**.
+5. **Source mode:** Choose **"Bridge"**.
+6. **Device model:** Set to **`e1000e`** (Standard Intel driver for initial boot).
+7. Click **Apply** and **Start** the VM.
+
+---
+
+### STEP 5.3: INSTALL VIRTIO-WIN DRIVERS
+Now we install the high-performance drivers inside Windows.
+1. **Mount ISO:** In Virt-Manager, click the **CD icon** -> Browse to your `virtio-win.iso` -> **Apply**.
+2. **Inside Windows:**
+   - Open **This PC** -> Double-click the **VirtIO-Win CD Drive**.
+   - Run **`virtio-win-gt-x64.msi`**.
+   - Choose **"Complete"** install and finish.
+3. **Reboot Windows.**
+
+---
+
+### STEP 5.4: UPGRADE TO HIGH-SPEED VIRTIO
+Now that drivers are installed, we switch to the fastest hardware mode.
+1. Shut down the VM.
+2. Go to **NIC** hardware settings.
+3. Change **Device model** from `e1000e` to **`virtio`**.
+4. **Apply** and Start.
+
+---
+
+### STEP 5.5: THE NO-LOCK ART WORKFLOW
+- **Input Release:** If the VM ever hangs, press **`Left-Ctrl + Left-Alt`** to free your mouse.
+- **Tablet Setup:** Click **Add Hardware** > **USB Host Device** > Select your **Tablet**.
+- **Clip Studio Paint:** Open CSP. It will now have internet for assets/license and professional pressure sensitivity without ever locking your Linux keyboard.
+
 
 ---
 
