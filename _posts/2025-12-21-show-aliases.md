@@ -57,6 +57,7 @@ show-aliases() {
 ```zsh
 source ~/.zshrc
 ```
+
 ### Step 4. Test show-aliases
 
 ```zsh
