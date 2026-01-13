@@ -41,6 +41,7 @@ ls -l ~/.ssh/
 ```
 
 You should see files like:
+
 * `id_ed25519_personal` (Private)
 * `id_ed25519_personal.pub` (Public)
 * `id_ed25519_work` (Private)
