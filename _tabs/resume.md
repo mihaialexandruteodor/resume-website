@@ -20,6 +20,8 @@ order: 5
 * Feature development for the **Ariba Supplier Dashboard** in the **SAP4Me** project, a micro-frontend web app replacing SAP’s Biller Direct platform.
 * Delivery of new functionalities and bug fixes through a robust **CI/CD pipeline** (Git, GitHub, Jenkins), supporting rapid iteration and deployment.
 * Reliability improvements by implementing **unit tests** with Sinon and QUnit, significantly reducing production bugs.
+* Long term support provided for delivered features (2 years and counting)
+* Leverage of LLMs for improvement and refactors, faster code delivery
 * Collaboration in **Agile teams** to align deliverables with business requirements and end-user feedback.
 
 **Tech Stack:** Node.js, Java, ABAP, Core Data Services (CDS), Git, Sinon, QUnit
