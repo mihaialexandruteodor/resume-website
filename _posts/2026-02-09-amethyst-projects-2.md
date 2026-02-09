@@ -4,7 +4,7 @@ date: 2026-02-09
 categories: [BLOG]
 tags: [blog, Amethyst]     # TAG names should always be lowercase
 ---
- I have created a free tier **Supabase** project to be used for handling user registration. Supabase offers NOSQL storage and generous free tiers, so it was a better choice than **Firebase**, at least at this point.
+ I have created a free tier **Supabase** project to be used for handling user registration. Supabase offers NoSQL storage and generous free tiers, so it was a better choice than **Firebase**, at least at this point.
 
 <img src="{{ site.baseurl }}/assets/post_images/amethyst/1.png" alt="Supabase project page"/>
 
