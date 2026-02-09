@@ -19,7 +19,7 @@ My current bet is on **Android + Supabase**, and I am following this tutorial to
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_iXUVJ6HTHU?si=VHiTUADKNy1ASmtN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-The development of the project can be tracked [here](https://github.com/mihaialexandruteodor/Amethyst), on this public repo.
+The development of the project will be done on a private repo.
 
 Hope this goes well!
 
