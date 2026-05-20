@@ -17,14 +17,17 @@ order: 5
 | **Type**  | Full-time                                                        |
 | **Dates** | Apr 2024 - Present                                               |
 
-* Feature development for the **Ariba Supplier Dashboard** in the **SAP4Me** project, a micro-frontend web app replacing SAP’s Biller Direct platform.
-* Delivery of new functionalities and bug fixes through a robust **CI/CD pipeline** (Git, GitHub, Jenkins), supporting rapid iteration and deployment.
-* Reliability improvements by implementing **unit tests** with Sinon and QUnit, significantly reducing production bugs.
+* Feature development for the Ariba Supplier Dashboard in the SAP4Me project, a micro-frontend SAP Cloud Application Programming Model (CAP) application, replacing SAP’s Biller Direct platform.
+* Delivery of new functionalities and bug fixes through a CI/CD pipeline (Git, GitHub, Jenkins), supporting rapid iteration and deployment.
+* Reliability improvements by implementing unit tests with Sinon and QUnit, reducing production bugs.
 * Long term support provided for delivered features (2 years and counting)
 * Leverage of LLMs for improvement and refactors, faster code delivery
-* Collaboration in **Agile teams** to align deliverables with business requirements and end-user feedback.
+* Collaboration in Agile teams to align deliverables with business requirements and end-user feedback.
+ 
+* While SAP is world famous for its ABAP language, this 2 years and counting project focused mostly on a Javascript-Java tech stack. From 2026 onwards, our development was assisted by various AI tools and agents, drastically improving our performance. We started with Cline and various agents like GPT, then switched to Claude, developed markdown memory banks, and even enhanced the agent's reasoning by connecting it to various SAP-approved MCP services.
 
-**Tech Stack:** Node.js, Java, ABAP, Core Data Services (CDS), Git, Sinon, QUnit
+
+**Tech Stack:** Node.js, Java, Core Data Services (CDS), Git, Sinon, QUnit, Claude
 
 **Skills:** Unit Testing, Jira, Git, GitHub, Java, JavaScript, HTML, SAPUI5, Continuous Integration and Continuous Delivery (CI/CD), Microfrontend, Microservices, Design Patterns, Debugging, Data Structures, REST APIs
 
