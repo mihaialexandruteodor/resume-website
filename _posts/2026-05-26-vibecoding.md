@@ -1,3 +1,10 @@
+---
+title: Vibecoding
+date: 2026-05-26
+categories: [AI]
+tags: [ai, quality-of-life]     # TAG names should always be lowercase
+---
+
 While I was fairly skeptical about the use of AI agents for programming in the beginning, I have changed my tune once I got to use them at work. 
 We are provided a generour Claude subscription, so while at home I use a mix of Claude and Gemini, I'll write these notes for a user that utilizes a paid Anthropic subscrition.
 
