@@ -12,6 +12,7 @@ Also, I'll return to this article from time to time to have all notes on this to
 Without further ado:
 
 ## Notes for proper usage of an AI agent for coding
+
 1. Use data banks. An agent is as knowledgeable as its context can reach. With Claude, whether you are using it in an pre-existing codebase or starting from scratch, the `/init` command will generate a `CLAUDE.md` file at the root of the repo. These files are read at the start of each session and feed into the current session context, so setting that up first is a great help.
 2. Tell Claude (or other agents) to make notes into the development markdown file or other repo-level note files for each thing that was attempted. As memory might not persist between sessions, this prevents you from going in circles.
 3. Use `Plan` and `Act` modes if available. Splitting the session between planning and writing helps with both the human veto process and the context window limitation of current agents.
