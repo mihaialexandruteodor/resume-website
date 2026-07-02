@@ -17,19 +17,24 @@ order: 5
 | **Type**  | Full-time                                                        |
 | **Dates** | Apr 2024 - Present                                               |
 
-* Feature development for the Ariba Supplier Dashboard in the SAP4Me project, a micro-frontend SAP Cloud Application Programming Model (CAP) application, replacing SAP’s Biller Direct platform.
+**2026 - Present**
+* Transitioned to ABAP development, ramping up on a new tech stack while maintaining delivery velocity through AI-assisted development.
+* Authored process and release documentation to streamline knowledge transfer, enabling a fast, low-friction onboarding period for the new stack.
+* Applied AI coding agents (Claude) to accelerate ramp-up, cutting the typical learning curve for a legacy enterprise language.
+
+**2024 - 2026**
+* Feature development for the Ariba Supplier Dashboard in the SAP4Me project, a micro-frontend SAP Cloud Application Programming Model (CAP) application, replacing SAP's Biller Direct platform.
 * Delivery of new functionalities and bug fixes through a CI/CD pipeline (Git, GitHub, Jenkins), supporting rapid iteration and deployment.
 * Reliability improvements by implementing unit tests with Sinon and QUnit, reducing production bugs.
-* Long term support provided for delivered features (2 years and counting)
-* Leverage of LLMs for improvement and refactors, faster code delivery
+* Long-term support provided for delivered features (2 years and counting).
+* Leverage of LLMs for improvement and refactors, enabling faster code delivery.
 * Collaboration in Agile teams to align deliverables with business requirements and end-user feedback.
- 
-* While SAP is world famous for its ABAP language, this 2 years and counting project focused mostly on a Javascript-Java tech stack. From 2026 onwards, our development was assisted by various AI tools and agents, drastically improving our performance. We started with Cline and various agents like GPT, then switched to Claude, developed markdown memory banks, and even enhanced the agent's reasoning by connecting it to various SAP-approved MCP services.
 
+While SAP is world famous for its ABAP language, the first two years of this role focused primarily on a JavaScript-Java tech stack. From 2026 onward, development shifted to ABAP, with AI tooling carrying much of the ramp-up load — a marked evolution from earlier practice. We started with Cline and various agents like GPT, then switched to Claude, developed markdown memory banks, and further enhanced agent reasoning by connecting it to SAP-approved MCP services.
 
-**Tech Stack:** Node.js, Java, Core Data Services (CDS), Git, Sinon, QUnit, Claude
+**Tech Stack:** ABAP, Node.js, Java, Core Data Services (CDS), Git, Sinon, QUnit, Claude
+**Skills:** Unit Testing, Jira, Git, GitHub, ABAP, Java, JavaScript, HTML, SAPUI5, Continuous Integration and Continuous Delivery (CI/CD), Microfrontend, Microservices, Design Patterns, Debugging, Data Structures, REST APIs, Technical Documentation
 
-**Skills:** Unit Testing, Jira, Git, GitHub, Java, JavaScript, HTML, SAPUI5, Continuous Integration and Continuous Delivery (CI/CD), Microfrontend, Microservices, Design Patterns, Debugging, Data Structures, REST APIs
 
 ---
 
