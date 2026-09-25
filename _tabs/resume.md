@@ -4,7 +4,7 @@ order: 5
 ---
 
 
-<a type="button" class="toc-trigger" href="https://www.linkedin.com/in/alexandru-m-91331532a/">
+<a type="button" class="toc-trigger" href="https://www.linkedin.com/in/teodor-m-91331532a/">
     Click for my LinkedIn profile here
         <img src="/assets/img/Linkedin_logo.svg" width="80" alt="Linkedin Logo"/>
       </a>
