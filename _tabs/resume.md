@@ -8,6 +8,7 @@ order: 5
     Click for my LinkedIn profile here
         <img src="/assets/img/Linkedin_logo.svg" width="80" alt="Linkedin Logo"/>
       </a>
+
 ## 💼 Experience
 
 ### Software Developer
@@ -21,6 +22,7 @@ order: 5
 * Transitioned to ABAP development, ramping up on a new tech stack while maintaining delivery velocity through AI-assisted development.
 * Authored process and release documentation to streamline knowledge transfer, enabling a fast, low-friction onboarding period for the new stack.
 * Applied AI coding agents (Claude) to accelerate ramp-up, cutting the typical learning curve for a legacy enterprise language.
+* Developed ABAP unit tests that run in the dev environment every time a transport is triggered, increasing coverage for the ABAP codebase.
 
 **2024 - 2026**
 * Feature development for the Ariba Supplier Dashboard in the SAP4Me project, a micro-frontend SAP Cloud Application Programming Model (CAP) application, replacing SAP's Biller Direct platform.
@@ -35,7 +37,6 @@ While SAP is world famous for its ABAP language, the first two years of this rol
 **Tech Stack:** ABAP, Node.js, Java, Core Data Services (CDS), Git, Sinon, QUnit, Claude
 **Skills:** Unit Testing, Jira, Git, GitHub, ABAP, Java, JavaScript, HTML, SAPUI5, Continuous Integration and Continuous Delivery (CI/CD), Microfrontend, Microservices, Design Patterns, Debugging, Data Structures, REST APIs, Technical Documentation
 
-
 ---
 
 ### Software Developer
@@ -49,7 +50,7 @@ While SAP is world famous for its ABAP language, the first two years of this rol
 * **SQL stored procedures** designed to improve query efficiency for reporting tools.
 * Direct point of contact with client representatives, incorporating feedback into product improvements.
 
-**Tech Stack:** .NET Framework, Angular, Microsoft SQL Server, Xamarin, RDL
+**Tech Stack:** .NET Framework, Angular, Microsoft SQL Server, Xamarin, RDL, TypeScript
 
 **Skills:** C#, .NET Framework, Stored Procedures, Microsoft SQL Server, Android Development, RDL, TypeScript, XML
 
@@ -62,7 +63,7 @@ While SAP is world famous for its ABAP language, the first two years of this rol
 | **Type**  | Full-time                                                               |
 | **Dates** | Jul 2022 - May 2023 (11 mos)                                            |
 
-* Implementation of **Figma mockups** as reusable **React components** for Cisco’s reskin project, improving UI consistency across platforms.
+* Implementation of **Figma mockups** as reusable **React components** for Cisco's reskin project, improving UI consistency across platforms.
 * Collaboration with a multicultural, distributed team across multiple time zones.
 
 **Tech Stack:** React.js, CSS
@@ -107,13 +108,47 @@ While SAP is world famous for its ABAP language, the first two years of this rol
 
 ---
 
-<h3 align="center">Leetcode stats:</h3>
+## 🎓 Education
 
-<p align="center">
-  <a href="https://leetcode.com/mihaialexandruteodor/">
-    <img align="center" src="https://leetcode-stats.vercel.app/api?username=mihaialexandruteodor&theme=Dark" alt="leetcode stats"/>
-  </a>
-</p>
+### Master's in Software Engineering
+
+| Institution | University of Bucharest |
+| :---------- | :---------------------- |
+| **Dates**   | 2020 - 2022             |
+
+* Graduated with a 9.5/10 final project grade.
+* Thesis: Developed a cloud-based web novel application ("FeatherWriter") — [github.com/mihaialexandruteodor/FeatherWriter](https://github.com/mihaialexandruteodor/FeatherWriter)
+
+---
+
+### Bachelor's in Computer Science
+
+| Institution | Transilvania University of Brasov |
+| :---------- | :-------------------------------- |
+| **Dates**   | 2017 - 2020                       |
+
+* Graduated with a 10/10 final project grade.
+* Thesis: Built an autonomous device for cartography.
+
+---
+
+## 📜 Certifications
+
+* [SAP Certified – SAP Generative AI Developer](https://www.credly.com/badges/60399c8b-cc90-4cb6-9795-26756bf0f66c)
+* [SAP Certified Associate – Back-End Developer – ABAP Cloud](https://www.credly.com/badges/9748020d-1e6b-4434-b3d2-54f35f58cb07)
+* [Machine Learning with Python · Coursera / IBM](https://www.credly.com/badges/62f3529a-2a76-4158-a2b6-a3d272eae57f)
+* [Oracle Cloud Infrastructure Foundations 2021 Associate](https://catalogeducation.oracle.com/ords/certview/sharebadge?id=B2C094EBCF110A5B32F15216D4C9A1368EF3A134C81F0774E31CD116B94BA154)
+* [Learning Docker · LinkedIn Learning](https://www.linkedin.com/learning/certificates/c70e6c90cefc8634bb1bf6231dcbf49b4d32dc1e2c98c9c3c38caa1b6bcdc)
+* Python Essentials 1 · Cisco
+
+---
+
+## 🌐 Languages
+
+**English** — IELTS Band Score 8.5 | Equivalent to C2 level in the CEFR (Common European Framework of Reference)
+
+---
+
 
 <p align="center">
   <a href="https://github-readme-stats.vercel.app/api?username=mihaialexandruteodor&show_icons=true&theme=tokyonight">
